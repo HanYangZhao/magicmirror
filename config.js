@@ -84,6 +84,19 @@
  			showPublishDate: true
  		}
  	},
+  {
+    module: 'ping',
+    position: 'top_left',
+    config: {
+      showAlways: true
+    }
+  },
+  {
+        module: 'MMM-PIR-Sensor',
+        config: {
+            sensorPIN : 15
+        }
+  },
 
  	{
  		module: 'MMM-Traffic',
